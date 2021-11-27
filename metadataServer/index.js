@@ -14,4 +14,4 @@ if(port == 80){
 
 }
 
-app.listen(process.env.EXPOSE_PORT, () => console.log('Node server listening on port '+process.env.EXPOSE_PORT+'!'));
+app.listen(port, () => console.log('Node server listening on port '+port+'!'));
