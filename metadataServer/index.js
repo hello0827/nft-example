@@ -10,8 +10,7 @@ if(port == 80){
     app.use(express.static('public'));
 }else{
     port = 8080;
-    app.use(express.static('public'));
-
+    app.use(express.static('metadataServer/public'));
 }
 
 app.listen(port, () => console.log('Node server listening on port '+port+'!'));
