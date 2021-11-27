@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "web3": "^1.6.1"
+  },
+  "name": "deploycontract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

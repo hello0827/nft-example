@@ -1,0 +1,14 @@
+{
+  "name": "metadataserver",
+  "version": "1.0.0",
+  "description": "It is the simple server that serve the JSON file for Opensea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

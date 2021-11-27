@@ -1,0 +1,37 @@
+{
+	"name": "Demo NFT",
+	"description": "This is the demo NFT",
+	"image": "https:\/\/s3.amazonaws.com\/your-bucket\/images\/{id}.png",
+	"properties": {
+        "attributes": [
+            {
+              "trait_type": "Eyes", 
+              "value": "Big"
+            },
+            {
+              "trait_type": "Level", 
+              "value": 5
+            }, 
+            {
+              "display_type": "boost_number", 
+              "trait_type": "Aqua Power", 
+              "value": 40
+            }, 
+            {
+                "display_type": "boost_percentage", 
+                "trait_type": "Stamina Increase", 
+                "value": 10
+            }, 
+            {
+                "display_type": "number", 
+                "trait_type": "Generation", 
+                "value": 2
+            },
+            {
+                "display_type": "date", 
+                "trait_type": "birthday", 
+                "value": 1546360800
+            }
+        ]
+	}
+}
