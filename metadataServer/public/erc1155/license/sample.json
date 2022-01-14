@@ -1,0 +1,52 @@
+{
+	"name": "Demo NFT",
+	"description": "This is the demo NFT",
+	"image": "https:\/\/...",
+	"properties": {
+        "attributes": [
+            {
+              "trait_type": "Eyes", 
+              "value": "Big"
+            },
+            {
+              "trait_type": "Level", 
+              "value": 5
+            }, 
+            {
+              "display_type": "boost_number", 
+              "trait_type": "Aqua Power", 
+              "value": 40
+            }, 
+            {
+                "display_type": "boost_percentage", 
+                "trait_type": "Stamina Increase", 
+                "value": 10
+            }, 
+            {
+                "display_type": "number", 
+                "trait_type": "Generation", 
+                "value": 2
+            },
+            {
+                "display_type": "date", 
+                "trait_type": "birthday", 
+                "value": 1546360800
+            }
+        ]
+    },
+    "dml":{
+        "urlToMedia": "http://...",
+        "license": [
+            {
+                "name": "Youtube license",
+                "price": 0.1,
+                "description": "This license is for contect creator to use the meterial for video that will be uploaded to Youtube"
+            },
+            {
+                "name": "Busker license",
+                "price": 0.1,
+                "description": "This license is for busking"
+            }
+        ]
+    }
+}
