@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Youtube license",
+        "price": 0.1,
+        "description": "This license is for content creator to use the meterial for video that will be uploaded to Youtube"
+    },
+    {
+        "name": "Busker license",
+        "price": 0.2,
+        "description": "This license is for busking"
+    },
+    {
+        "name": "Auditor license",
+        "price": 0.3,
+        "description": "This license is for 3rd party auditor"
+    }
+]

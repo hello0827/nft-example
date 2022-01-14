@@ -1,0 +1,27 @@
+[
+    {
+        "name": "CASH license",
+        "price": 0.1,
+        "description": "This license is for streaming license"
+    },
+    {
+        "name": "Media Asia Music license",
+        "price": 0.5,
+        "description": "This license is for Media Asia Music which is music company"
+    },
+    {
+        "name": "Music publisher license",
+        "price": 0.2,
+        "description": "This license is for music publisher"
+    },
+    {
+        "name": "Sound recording license",
+        "price": 0.1,
+        "description": "This license is for sound recording and MMO"
+    },
+    {
+        "name": "HKRIA license",
+        "price": 0.1,
+        "description": "This license is for streaming license"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Republic Records license",
+        "price": 0.2,
+        "description": "This license is for Republic Records which is music company"
+    },
+    {
+        "name": "Music publisher license",
+        "price": 0.1,
+        "description": "This license is for music publisher"
+    },
+    {
+        "name": "Sound recording license",
+        "price": 0.1,
+        "description": "This license is for sound recording and MMO"
+    },
+    {
+        "name": "Busker license",
+        "price": 0.2,
+        "description": "This license is for busking"
+    }
+]

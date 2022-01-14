@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Youtube license",
+        "price": 0.1,
+        "description": "This license is for content creator to use the meterial for video that will be uploaded to Youtube"
+    },
+    {
+        "name": "Viutv license",
+        "price": 0.2,
+        "description": "This license is for Viutv which is music company"
+    }
+]

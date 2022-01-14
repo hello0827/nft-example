@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Busker license",
+        "price": 0.1,
+        "description": "This license is for busking"
+    },
+    {
+        "name": "Auditor license",
+        "price": 0.1,
+        "description": "This license is for 3rd party auditor"
+    }
+]
