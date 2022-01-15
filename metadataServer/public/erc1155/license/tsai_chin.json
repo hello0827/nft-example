@@ -1,7 +1,7 @@
 {
 	"name": "Tsai Chin song NFT",
 	"description": "This is Tsai Chin song NFT",
-	"image": "https://nft.iamja.ga/erc1155/image/tsai_chin",
+	"image": "https://nft.iamja.ga/erc1155/image/tsai_chin.json",
 	"properties": {
         "attributes": [
             {
