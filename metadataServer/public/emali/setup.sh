@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #Setup apt-get
-sudo apt-get update
+sudo apt-get -y update
 
 #Install Git Client
-sudo apt-get install git
+sudo apt-get -y install git
 
 #Install Go
 wget https://go.dev/dl/go1.15.linux-amd64.tar.gz
@@ -19,12 +19,12 @@ sudo sh get-docker.sh
 
 #Install SoftHSM
 git clone https://github.com/opendnssec/SoftHSMv2.git
-sudo apt-get install openssl
-sudo apt-get install libssl-dev
-sudo apt install automake
-sudo apt install autoconf
-sudo apt install libtool
-sudo apt install pkg-config
+sudo apt-get -y install openssl
+sudo apt-get -y install libssl-dev
+sudo apt -y install automake
+sudo apt -y install autoconf
+sudo apt -y install libtool
+sudo apt -y install pkg-config
 cd SoftHSMv2
 sh autogen.sh
 ./configure
@@ -33,7 +33,7 @@ sudo make install
 cd ..
 
 # Install jq
-sudo apt-get install jq
+sudo apt-get -y install jq
 jq --version
 
 # Install cURL
