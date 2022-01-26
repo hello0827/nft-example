@@ -30,11 +30,11 @@ echo "\033[31m install failed\033[0m"
 #Install Go
 {
 echo "\033[32m Install go\033[0m"
-wget https://go.dev/dl/go1.17.6.linux-amd64.tar.gz
-sudo tar -C /usr/local/ -xzf go1.17.6.linux-amd64.tar.gz
-echo "\nGOPATH=$HOME/go\n" > ~/.profile
-echo "\nPATH=$PATH:$GOPATH/bin\n" > ~/.profile
-#echo "\nexport PATH=\$PATH:/usr/local/go/bin\n" > ~/.profile
+wget https://go.dev/dl/go1.17.5.linux-amd64.tar.gz
+sudo tar -C /usr/local/ -xzf go1.17.5.linux-amd64.tar.gz
+#echo "\nGOPATH=$HOME/go\n" > ~/.profile
+#echo "\nPATH=$PATH:$GOPATH/bin\n" > ~/.profile
+echo "export PATH=\$PATH:/usr/local/go/bin" > ~/.profile
 source ~/.profile
 go version
 }||{
