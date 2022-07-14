@@ -1,0 +1,26 @@
+{
+	"name": "Demo NFT for FIN",
+	"description": "This is Demo NFT",
+	"image": "https://nft.iamja.ga/hkuspace/ticket.jpeg",
+	"properties": {
+        "attributes": [
+            {
+              "trait_type": "Event Name", 
+              "value": "XYZ LIVE CONCERT"
+            },
+            {
+              "trait_type": "Seat", 
+              "value": 41
+            }, 
+            {
+              "trait_type": "Zone", 
+              "value": "A"
+            },
+            {
+                "display_type": "date", 
+                "trait_type": "Event Date", 
+                "value": 1657890000
+            }
+        ]
+    }
+}
