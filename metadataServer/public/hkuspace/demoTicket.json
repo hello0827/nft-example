@@ -2,7 +2,6 @@
 	"name": "Demo Ticket of XYZ LIVE CONCERT",
 	"description": "This is Demo NFT",
 	"image": "https://nft.iamja.ga/hkuspace/ticket.jpeg",
-	"properties": {
         "attributes": [
             {
               "trait_type": "Event Name", 
@@ -22,5 +21,4 @@
                 "value": 1657890000
             }
         ]
-    }
 }
